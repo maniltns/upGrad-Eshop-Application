@@ -1,0 +1,57 @@
+{
+    "name": "upgrad-eshop",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "format": "prettier --write \"src/**/*.{js,jsx,json,css,scss}\"",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --fix",
+      "prepare": "husky install",
+      "serve": "serve -s build",
+      "cypress:open": "cypress open",
+      "cypress:run": "cypress run"
+    },
+    "dependencies": {
+      "@material-ui/core": "^4.12.4",
+      "@material-ui/icons": "^4.11.3",
+      "@material-ui/lab": "^4.0.0-alpha.61",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^0.27.2",
+      "formik": "^2.2.9",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-redux": "^7.2.9",
+      "react-router-dom": "^5.3.4",
+      "react-scripts": "5.0.1",
+      "redux": "^4.1.2",
+      "redux-thunk": "^2.4.1",
+      "web-vitals": "^2.1.4",
+      "yup": "^0.32.11"
+    },
+    "devDependencies": {
+      "cypress": "^10.11.0",
+      "eslint": "^8.28.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-react": "^7.31.11",
+      "husky": "^8.0.2",
+      "prettier": "^2.8.0",
+      "serve": "^14.1.2"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
